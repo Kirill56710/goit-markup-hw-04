@@ -17,13 +17,20 @@ html {
 *::before *::after {
   box-sizing: inherit;
 }
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -220,6 +227,7 @@ img {
 .section.black {
   background: var(--color-background-footer);
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 .section.grey {
   background: var(--color-background-secondary);
