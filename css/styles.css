@@ -191,7 +191,32 @@ img {
   margin-right: 30px;
 }
 .image-item :last-child {
-  margin: 0;
+  margin: 0px;
+}
+.ul-emploer {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.ul-emploer:last-child {
+  margin: 0px;
+}
+.more-buttons {
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+}
+.more-buttons:last-child {
+  margin: 0px;
+}
+.more-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 30px;
+}
+.more-img:last-child {
+  margin: 0px;
 }
 .subject-first {
   font-family: 'Roboto', sans-serif;
