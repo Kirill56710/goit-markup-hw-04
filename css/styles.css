@@ -201,6 +201,12 @@ img {
 .ul-emploer:last-child {
   margin: 0px;
 }
+/*а тут еще и дисплей флекс почему то не работает*/
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+}
 .more-buttons {
   display: flex;
   justify-content: center;
@@ -214,6 +220,7 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   margin-right: 30px;
+  margin-top: 50px;
 }
 .more-img:last-child {
   margin: 0px;
