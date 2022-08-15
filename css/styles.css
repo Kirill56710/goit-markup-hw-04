@@ -34,6 +34,11 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -61,6 +66,33 @@ img {
 }
 .studia-link.curent {
   color: var(--color-accent);
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.site-nav .item {
+  margin-right: 50px;
+}
+.site-nav .logo {
+  margin-right: 93px;
+}
+.site-nav .item .logo :last-child {
+  margin-right: 0px;
+}
+.auto-nav {
+  display: flex;
+  margin-left: auto;
+}
+.auto-nav .item {
+  margin-right: 50px;
+}
+.auto-nav .item :last-child {
+  margin-right: 0px;
 }
 .portfolio-link {
   color: var(--color-text-title);
@@ -151,6 +183,16 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
+/*маржен почему то не работает*/
+.image-item {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.image-item :last-child {
+  margin: 0;
+}
 .subject-first {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -192,11 +234,6 @@ img {
   color: var(--color-p);
   font-size: 16px;
   line-height: 1.9;
-}
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 .heading-uppercase {
   text-transform: uppercase;
