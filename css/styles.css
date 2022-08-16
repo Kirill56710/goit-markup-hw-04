@@ -148,10 +148,16 @@ img:last-child {
   margin: 0 auto;
   margin-bottom: 30px;
 }
+.item {
+  display: flex;
+  margin-right: 30px;
+}
+.item:last-child {
+  margin: 0px;
+}
 .image-item {
   display: flex;
   margin-right: 30px;
-  justify-content: space-between;
 }
 .emploer {
   display: flex;
