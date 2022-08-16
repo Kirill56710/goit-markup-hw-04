@@ -148,16 +148,15 @@ img:last-child {
   margin: 0 auto;
   margin-bottom: 30px;
 }
-
-/*маржен почему то не работает*/
 .image-item {
   display: flex;
+  margin-right: 30px;
+  justify-content: space-between;
 }
 .ul-emploer {
   display: flex;
   align-items: center;
 }
-/*а тут еще и дисплей флекс почему то не работает*/
 .skills {
   display: flex;
   gap: 30px;
@@ -192,7 +191,7 @@ img:last-child {
   font-size: 36px;
   line-height: 1.17;
   text-align: Center;
-  margin-top: 90px;
+  margin-top: 118px;
   margin-bottom: 50px;
 }
 .subject-second {
@@ -203,11 +202,7 @@ img:last-child {
   font-size: 18px;
   line-height: 2;
 }
-.heading-text {
-  color: var(--color-p);
-  line-height: 1.71;
-}
-.employee {
+.emploer {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: var(--color-text-title);
@@ -235,6 +230,11 @@ img:last-child {
   line-height: 1.4;
   font-size: 14px;
   margin-bottom: 10px;
+  margin-top: 94px;
+}
+.heading-text {
+  color: var(--color-p);
+  line-height: 1.71;
 }
 .button {
   display: inline-block;
