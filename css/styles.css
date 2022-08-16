@@ -153,9 +153,20 @@ img:last-child {
   margin-right: 30px;
   justify-content: space-between;
 }
-.ul-emploer {
+.emploer {
   display: flex;
   align-items: center;
+}
+.emploer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: var(--color-text-title);
+  font-style: Medium;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .skills {
   display: flex;
@@ -201,17 +212,6 @@ img:last-child {
   letter-spacing: 0.03em;
   font-size: 18px;
   line-height: 2;
-}
-.emploer {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  color: var(--color-text-title);
-  font-style: Medium;
-  letter-spacing: 0.03em;
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  margin-bottom: 10px;
 }
 .job-title {
   color: var(--color-p);
