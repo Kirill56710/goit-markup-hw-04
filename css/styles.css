@@ -243,20 +243,22 @@ img:last-child {
   gap: 30px;
 }
 .emploer-item {
-  display: flex;
   gap: 30px;
 }
-.emplier-div {
+.emploer-div {
+  background-color: #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 .employee {
-  display: flex;
+  text-align: center;
 }
 .job-title {
+  font-weight: 400;
   color: var(--color-p);
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
   margin-top: 10px;
 }
@@ -279,6 +281,8 @@ img:last-child {
   letter-spacing: 0.03em;
   text-decoration: none;
   line-height: 1.71;
+  margin-top: 20px;
+  display: flex;
 }
 .map:hover,
 .map:focus {
