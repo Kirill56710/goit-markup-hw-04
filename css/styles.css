@@ -297,6 +297,8 @@ img:last-child {
   letter-spacing: 0, 03em;
   text-decoration: none;
   line-height: 1.71;
+  margin-top: 10px;
+  display: flex;
 }
 .contacts-footer:hover,
 .contacts-footer:focus {
