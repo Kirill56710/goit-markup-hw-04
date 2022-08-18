@@ -1,3 +1,5 @@
+/*Основные настройки*/
+
 :root {
   --color-background-primary: #ffffff;
   --color-background-secondary: #f5f4fa;
@@ -18,7 +20,7 @@ html {
   box-sizing: inherit;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -53,10 +55,23 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin-right: 30px;
 }
 img:last-child {
   margin: 0;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/*навигация*/
+
+.item {
+  display: flex;
+  margin-right: 30px;
+}
+.item:last-child {
+  margin: 0px;
 }
 .main-nav {
   display: flex;
@@ -135,6 +150,14 @@ img:last-child {
 .logo-footer {
   color: var(--color-background-primary);
 }
+
+/*начало 1 секции*/
+
+.section.black {
+  background: var(--color-background-footer);
+  text-align: center;
+  padding: 200px 0;
+}
 .title {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
@@ -147,100 +170,6 @@ img:last-child {
   width: 690px;
   margin: 0 auto;
   margin-bottom: 30px;
-}
-.item {
-  display: flex;
-  margin-right: 30px;
-}
-.item:last-child {
-  margin: 0px;
-}
-.image-item {
-  display: flex;
-  margin-right: 30px;
-}
-.emploer {
-  display: flex;
-  align-items: center;
-}
-.emploer {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  color: var(--color-text-title);
-  font-style: Medium;
-  letter-spacing: 0.03em;
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.skills {
-  display: flex;
-  gap: 30px;
-}
-.more-buttons {
-  display: flex;
-  justify-content: center;
-  margin-right: 15px;
-}
-.more-buttons:last-child {
-  margin: 0px;
-}
-.more-img {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-right: 30px;
-  margin-top: 50px;
-}
-.more-img:last-child {
-  margin: 0px;
-}
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.subject-first {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  color: var(--color-text-title);
-  letter-spacing: 0.03em;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: Center;
-  margin-top: 118px;
-  margin-bottom: 50px;
-}
-.subject-second {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  color: var(--color-text-title);
-  letter-spacing: 0.03em;
-  font-size: 18px;
-  line-height: 2;
-}
-.job-title {
-  color: var(--color-p);
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  margin-bottom: 124px;
-}
-.subject-text {
-  color: var(--color-p);
-  font-size: 16px;
-  line-height: 1.9;
-}
-.heading-uppercase {
-  text-transform: uppercase;
-  line-height: 1.4;
-  font-size: 14px;
-  margin-bottom: 10px;
-  margin-top: 94px;
-}
-.heading-text {
-  color: var(--color-p);
-  line-height: 1.71;
 }
 .button {
   display: inline-block;
@@ -264,13 +193,95 @@ img:last-child {
 .button:focus {
   background-color: var(--color-hover);
 }
-.section.black {
-  background: var(--color-background-footer);
+
+/*начало 2 секции*/
+
+.image-item {
+  display: flex;
+  gap: 30px;
+}
+.skills {
+  display: flex;
+  gap: 30px;
+}
+.skills-item {
+  width: 270px;
+}
+.more-buttons {
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+}
+.more-buttons:last-child {
+  margin: 0px;
+}
+.more-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.more-img:last-child {
+  margin: 0px;
+}
+.subject-first {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: var(--color-text-title);
+  letter-spacing: 0.03em;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: Center;
+  margin-bottom: 50px;
+}
+.subject-item {
+  display: flex;
+  gap: 30px;
+}
+.emploer {
+  display: flex;
+  gap: 30px;
+}
+.emploer-item {
+  display: flex;
+  gap: 30px;
+}
+.emplier-div {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.subject-second {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: var(--color-text-title);
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 2;
+}
+.job-title {
+  color: var(--color-p);
+  font-size: 16px;
+  line-height: 1.19;
   text-align: center;
-  padding: 200px 0;
+  margin-top: 10px;
+}
+.subject-text {
+  color: var(--color-p);
+  font-size: 16px;
+  line-height: 1.9;
+}
+.heading-uppercase {
+  text-transform: uppercase;
+  line-height: 1.4;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.heading-text {
+  color: var(--color-p);
+  line-height: 1.71;
 }
 .section.white {
-  padding: 94px 0;
+  padding-top: 0;
 }
 .section.grey {
   background: var(--color-background-secondary);
@@ -395,9 +406,8 @@ img:last-child {
   color: #ffffff;
 }
 .footer-black {
-  color: rgb(255, 255, 255);
   background: #2f303a;
-  padding: 84px 0;
+  padding: 60px 0;
 }
 .map {
   color: #ffffff;
