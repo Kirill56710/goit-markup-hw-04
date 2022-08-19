@@ -66,12 +66,14 @@ img:last-child {
 
 /*Навигация*/
 
+header {
+  border-bottom: 1px solid #ececec;
+}
 .item {
-  display: flex;
   margin-right: 30px;
 }
 .item:last-child {
-  margin: 0px;
+  margin-right: 0px;
 }
 .main-nav {
   display: flex;
@@ -80,9 +82,6 @@ img:last-child {
 .site-nav {
   display: flex;
   margin-left: 93px;
-}
-.site-nav .item {
-  margin-right: 50px;
 }
 .site-nav .logo {
   margin-right: 93px;
@@ -93,12 +92,6 @@ img:last-child {
 .auto-nav {
   display: flex;
   margin-left: auto;
-}
-.auto-nav .item {
-  margin-right: 50px;
-}
-.auto-nav .item :last-child {
-  margin-right: 0px;
 }
 .site-link {
   color: var(--color-text-title);
@@ -193,9 +186,6 @@ img:last-child {
 
 /*Начало 2 секции*/
 
-.section.white {
-  padding-top: 0;
-}
 .skills {
   display: flex;
   gap: 30px;
@@ -208,7 +198,6 @@ img:last-child {
   line-height: 1.4;
   font-size: 14px;
   margin-bottom: 10px;
-  margin-top: 94px;
 }
 .heading-text {
   color: var(--color-p);
@@ -269,6 +258,10 @@ img:last-child {
   background: #2f303a;
   padding: 60px 0;
 }
+.address {
+  margin-top: 20px;
+  font-style: normal;
+}
 .logo-footer {
   color: var(--color-background-primary);
 }
@@ -281,8 +274,6 @@ img:last-child {
   letter-spacing: 0.03em;
   text-decoration: none;
   line-height: 1.71;
-  margin-top: 20px;
-  display: flex;
 }
 .map:hover,
 .map:focus {
@@ -294,15 +285,19 @@ img:last-child {
   font-weight: 400;
   font-size: 14px;
   font-style: medium;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   text-decoration: none;
   line-height: 1.71;
-  margin-top: 10px;
-  display: flex;
 }
 .contacts-footer:hover,
 .contacts-footer:focus {
   color: #2196f3;
+}
+.footera {
+  margin-bottom: 10px;
+}
+.footera:last-child {
+  margin-bottom: 0px;
 }
 
 /*Портфолио кнопки*/
@@ -310,15 +305,14 @@ img:last-child {
 .more-buttons {
   display: flex;
   justify-content: center;
-  margin-right: 15px;
+  margin-bottom: 50px;
 }
 .more-buttons:last-child {
   margin: 0px;
 }
 .button2 {
   background: #f5f4fa;
-  min-width: 73px;
-  height: 38px;
+  padding: 6px 22px;
   color: #212121;
   border: 0;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -330,7 +324,6 @@ img:last-child {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  margin-bottom: 62px;
   margin-right: 8px;
 }
 .button2:hover,
@@ -339,8 +332,7 @@ img:last-child {
   color: #ffffff;
 }
 .button3 {
-  min-width: 125px;
-  height: 38px;
+  padding: 6px 22px;
   color: #212121;
   background: #f5f4fa;
   border-radius: 4px;
@@ -354,7 +346,6 @@ img:last-child {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  margin-bottom: 62px;
   margin-right: 8px;
 }
 .button3:hover,
@@ -363,8 +354,7 @@ img:last-child {
   color: #ffffff;
 }
 .button4 {
-  min-width: 112px;
-  height: 38px;
+  padding: 6px 22px;
   background: #f5f4fa;
   border-radius: 4px;
   border: 0;
@@ -377,7 +367,6 @@ img:last-child {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  margin-bottom: 62px;
   margin-right: 8px;
 }
 .button4:hover,
@@ -386,8 +375,7 @@ img:last-child {
   color: #ffffff;
 }
 .button5 {
-  min-width: 103px;
-  height: 38px;
+  padding: 6px 22px;
   background: #f5f4fa;
   border-radius: 4px;
   border: 0;
@@ -400,7 +388,6 @@ img:last-child {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  margin-bottom: 62px;
   margin-right: 8px;
 }
 .button5:hover,
@@ -409,8 +396,7 @@ img:last-child {
   color: #ffffff;
 }
 .button6 {
-  min-width: 130px;
-  height: 38px;
+  padding: 6px 22px;
   background: #f5f4fa;
   border-radius: 4px;
   border: 0;
@@ -423,28 +409,23 @@ img:last-child {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  margin-bottom: 62px;
 }
 .button6:hover,
 .button6:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
-.buttons.portfolio {
-  margin-top: 100px;
-  margin-bottom: 106px;
-}
 
 /*Портфолио список*/
 
+.subject-container {
+  border: 1px Solid #eeeeee;
+  padding: 20px;
+}
 .more-img {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-}
-.more-img:last-child {
-  margin: 0px;
 }
 .subject-second {
   font-family: 'Roboto', sans-serif;
@@ -458,6 +439,7 @@ img:last-child {
   color: var(--color-p);
   font-size: 16px;
   line-height: 1.9;
+  margin-top: 4px;
 }
 
 /*штука для скрытия текста*/
