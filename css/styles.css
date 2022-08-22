@@ -124,6 +124,18 @@ header {
   padding: 32px 0;
   display: block;
 }
+.auto-linke::before {
+  display: block;
+  content: dgfdfdfdfdfd;
+  width: 16px;
+  height: 12px;
+  outline: 1px red;
+  background-color: #188ce8;
+  background-image: url('../image/envelope.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .auto-link:hover,
 .auto-link:focus {
   color: #2196f3;
