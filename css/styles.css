@@ -70,7 +70,7 @@ header {
   border-bottom: 1px solid #ececec;
 }
 .item {
-  margin-right: 30px;
+  margin-right: 50px;
 }
 .item:last-child {
   margin-right: 0px;
@@ -140,7 +140,6 @@ header {
 .logo-header {
   color: var(--color-logo);
 }
-
 /*Начало 1 секции*/
 
 .section.black {
@@ -186,6 +185,9 @@ header {
 
 /*Начало 2 секции*/
 
+.whitesecond {
+  padding-top: 0px;
+}
 .skills {
   display: flex;
   gap: 30px;
@@ -330,6 +332,12 @@ header {
 .button2:focus {
   background-color: #2196f3;
   color: #ffffff;
+}
+.portfolio-button {
+  margin-right: 8px;
+}
+.portfolio-button:last-child {
+  margin-right: 0px;
 }
 
 /*Портфолио список*/
