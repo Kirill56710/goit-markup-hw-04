@@ -143,9 +143,18 @@ header {
 /*Начало 1 секции*/
 
 .section.black {
-  background: var(--color-background-footer);
+  background-color: #000000;
   text-align: center;
   padding: 200px 0;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../image/fon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .title {
   font-family: 'Roboto', sans-serif;
