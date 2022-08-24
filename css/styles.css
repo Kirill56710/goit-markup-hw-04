@@ -127,15 +127,6 @@ header {
 .mail {
   display: flex;
 }
-.mail-item {
-  display: flex;
-  margin-top: 34px;
-  margin-right: 10px;
-  content: '';
-  width: 16px;
-  height: 12px;
-  cursor: pointer;
-}
 .auto-link:hover,
 .auto-link:focus {
   color: #2196f3;
