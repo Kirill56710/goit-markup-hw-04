@@ -143,6 +143,30 @@ header {
 .logo-header {
   color: var(--color-logo);
 }
+.button-svg {
+  padding: 0px;
+  border: 0px;
+}
+.item-mail {
+  margin-top: 34px;
+  width: 16px;
+  height: 12px;
+  cursor: pointer;
+}
+.item-mail:hover,
+.item-mail:focus {
+  background-color: #188ce8;
+}
+.item-tel {
+  margin-top: 34px;
+  width: 10px;
+  height: 16px;
+  cursor: pointer;
+}
+.item-tel:hover,
+.item-tel:focus {
+  background-color: #188ce8;
+}
 /*Начало 1 секции*/
 
 .section.black {
