@@ -152,20 +152,22 @@ header {
   height: 12px;
   cursor: pointer;
   margin-right: 10px;
+  fill: #757575;
 }
 .item-mail:hover,
 .item-mail:focus {
-  background-color: #2196f3;
+  fill: #2196f3;
 }
 .item-tel {
   width: 10px;
   height: 16px;
   cursor: pointer;
   margin-right: 10px;
+  fill: #757575;
 }
 .item-tel:hover,
 .item-tel:focus {
-  background-color: #2196f3;
+  fill: #2196f3;
 }
 /*Начало 1 секции*/
 
@@ -264,11 +266,12 @@ header {
   width: 270px;
   height: 120px;
   display: flex;
+  align-items: center;
 }
 .vector {
   height: 70px;
   width: 70px;
-  align-items: center;
+  margin-left: 100px;
 }
 .emploer-svg {
   width: 20px;
@@ -304,12 +307,15 @@ header {
   margin-top: 10px;
 }
 .emploer-link {
-  display: inline-block;
+  display: inline-flex;
   fill: #afb1b8;
   text-decoration: none;
   cursor: pointer;
   margin-top: 16px;
   margin: 20px;
+  width: 20px;
+  height: 16.25px;
+  border-radius: 50%;
 }
 .emploer-link:hover,
 .emploer-link:focus {
@@ -317,6 +323,14 @@ header {
   background-color: #2196f3;
 }
 
+/*Начало 5 секции*/
+
+.partners-item {
+  width: 106px;
+  height: 60px;
+  padding-top: 16px 32px;
+  fill: #afb1b8;
+}
 /*Футер*/
 
 .footer-black {
@@ -427,6 +441,13 @@ header {
   font-size: 16px;
   line-height: 1.9;
   margin-top: 4px;
+}
+.shadow {
+  cursor: pointer;
+  text-decoration: none;
+}
+.shadow:hover,
+shadow:focus {
 }
 
 /*штука для скрытия текста*/
