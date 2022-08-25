@@ -122,7 +122,7 @@ header {
   text-decoration: none;
   line-height: 1.14;
   padding: 32px 0;
-  display: block;
+  display: flex;
 }
 .mail {
   display: flex;
@@ -148,24 +148,24 @@ header {
   border: 0px;
 }
 .item-mail {
-  margin-top: 34px;
   width: 16px;
   height: 12px;
   cursor: pointer;
+  margin-right: 10px;
 }
 .item-mail:hover,
 .item-mail:focus {
-  background-color: #188ce8;
+  background-color: #2196f3;
 }
 .item-tel {
-  margin-top: 34px;
   width: 10px;
   height: 16px;
   cursor: pointer;
+  margin-right: 10px;
 }
 .item-tel:hover,
 .item-tel:focus {
-  background-color: #188ce8;
+  background-color: #2196f3;
 }
 /*Начало 1 секции*/
 
@@ -259,7 +259,21 @@ header {
   display: flex;
   gap: 30px;
 }
-
+.vector-fon {
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  text-align: center;
+}
+.vector {
+  height: 70px;
+  width: 70px;
+  margin-top: 25px;
+}
+.emploer-svg {
+  width: 20px;
+  height: 20px;
+}
 /*Начало 4 секции*/
 
 .section.grey {
@@ -288,6 +302,9 @@ header {
   letter-spacing: 0.03em;
   text-align: center;
   margin-top: 10px;
+}
+.emploer-link {
+  margin: 10px;
 }
 
 /*Футер*/
