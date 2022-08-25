@@ -330,6 +330,11 @@ header {
   height: 60px;
   padding-top: 16px 32px;
   fill: #afb1b8;
+  margin-right: 200px;
+}
+.partners-item:hover,
+.partners-item:focus {
+  fill: #2196f3;
 }
 /*Футер*/
 
