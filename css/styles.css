@@ -263,12 +263,12 @@ header {
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
-  text-align: center;
+  display: flex;
 }
 .vector {
   height: 70px;
   width: 70px;
-  margin-top: 25px;
+  align-items: center;
 }
 .emploer-svg {
   width: 20px;
@@ -304,7 +304,17 @@ header {
   margin-top: 10px;
 }
 .emploer-link {
-  margin: 10px;
+  display: inline-block;
+  fill: #afb1b8;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 16px;
+  margin: 20px;
+}
+.emploer-link:hover,
+.emploer-link:focus {
+  fill: #f5f4fa;
+  background-color: #2196f3;
 }
 
 /*Футер*/
