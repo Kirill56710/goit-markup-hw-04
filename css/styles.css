@@ -324,6 +324,21 @@ header {
   align-items: center;
   justify-content: center;
 }
+.partners-li {
+  border: 1px solid #afb1b8;
+  border-radius: 4x;
+  margin-right: 30px;
+}
+.partners-li:not(:last-child) {
+  margin-right: 30px;
+}
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+}
 .partners-item {
   width: 106px;
   height: 60px;
@@ -392,7 +407,6 @@ header {
 }
 .footer-container {
   display: flex;
-  align-items: baseline;
 }
 .footer-icon {
   display: flex;
@@ -440,8 +454,6 @@ header {
   padding: 6px 22px;
   color: #212121;
   border: 0;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -494,6 +506,9 @@ header {
 }
 .shadow:hover,
 shadow:focus {
+  display: block;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /*штука для скрытия текста*/
