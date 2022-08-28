@@ -329,9 +329,6 @@ header {
   display: flex;
   align-items: center;
 }
-.partners-li {
-  margin-right: 30px;
-}
 .partners-li:not(:last-child) {
   margin-right: 30px;
 }
@@ -341,23 +338,20 @@ header {
   justify-content: center;
   width: 170px;
   height: 92px;
+  color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 .partners-item {
   width: 106px;
   height: 60px;
-  color: #afb1b8;
   fill: currentColor;
 }
 .partners:hover,
 .partners:focus {
+  fill: #2196f3;
   color: #2196f3;
   border: solid 1px #2196f3;
-}
-.partners-item:hover,
-.partners-item:focus {
-  color: #2196f3;
 }
 
 /*Футер*/
@@ -484,6 +478,8 @@ header {
 .button2:focus {
   background-color: #2196f3;
   color: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-button {
   margin-right: 8px;
