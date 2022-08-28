@@ -257,6 +257,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .vector {
   height: 70px;
@@ -272,7 +273,10 @@ header {
   gap: 30px;
 }
 .emploer-item {
-  gap: 30px;
+  background: #ffffff;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .emploer-div {
   background-color: #ffffff;
@@ -305,6 +309,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+  margin-top: 16px;
 }
 .emploer-svg {
   width: 20px;
@@ -322,11 +328,8 @@ header {
 .partners-svg {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .partners-li {
-  border: 1px solid #afb1b8;
-  border-radius: 4x;
   margin-right: 30px;
 }
 .partners-li:not(:last-child) {
@@ -338,16 +341,25 @@ header {
   justify-content: center;
   width: 170px;
   height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .partners-item {
   width: 106px;
   height: 60px;
-  fill: #afb1b8;
+  color: #afb1b8;
+  fill: currentColor;
+}
+.partners:hover,
+.partners:focus {
+  color: #2196f3;
+  border: solid 1px #2196f3;
 }
 .partners-item:hover,
 .partners-item:focus {
-  fill: #2196f3;
+  color: #2196f3;
 }
+
 /*Футер*/
 
 .footer-black {
@@ -407,9 +419,11 @@ header {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-icon {
   display: flex;
+  margin-top: 20px;
 }
 .footer-border {
   display: inline-flex;
@@ -439,6 +453,10 @@ header {
 .list-svg:not(:last-child) {
   margin-right: 10px;
 }
+.div-margen {
+  margin-left: 70px;
+}
+
 /*Портфолио кнопки*/
 
 .more-buttons {
@@ -461,7 +479,6 @@ header {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  margin-right: 8px;
 }
 .button2:hover,
 .button2:focus {
@@ -505,7 +522,7 @@ header {
   text-decoration: none;
 }
 .shadow:hover,
-shadow:focus {
+.shadow:focus {
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
